@@ -1,8 +1,6 @@
 <?php
     $testo = $_POST['testo'];
     $parola = $_POST['parolaCensurata'];
-    // $testoCensurato = 'Questo è il testo censurato:';
-
 ?>
 
 <!DOCTYPE html>
@@ -16,10 +14,8 @@
 <body>
 <h1>Questo è il testo censurato:</h1>
 
-<h2><?php echo $testo ?></h2>
+<h2><?php echo str_replace($parola,'***',$testo) ?></h2>
 <h3>Il testo è lungo: <?php echo strlen($testo);?> caratteri</h3>
-
-
 
 </body>
 </html>
