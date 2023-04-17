@@ -11,7 +11,7 @@
 
 <body>
     <form method="POST" action="dati.php">
-        <textarea name="testo" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, odit?
+        <textarea name="testo" cols="30" rows="10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum praesentium ut velit molestias illo maxime laborum eligendi, iusto voluptatibus doloremque!
             </textarea>
         <input type="text" name="parolaCensurata" placeholder="Inserisci la parola da censurare" />
         <button type="submit">Invia</button>

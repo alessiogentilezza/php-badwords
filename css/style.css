@@ -20,13 +20,13 @@ input {
     border: 1px solid black;
 }
 
-input{
+input {
     margin: 1rem 0;
 }
-button{
+
+button {
     padding: .5rem 1rem;
 }
-
 
 h1,
 h2,
@@ -40,4 +40,8 @@ h2 {
 
 h3 {
     color: red;
+}
+
+.testo-censurato{
+    padding-top: 1rem;
 }
