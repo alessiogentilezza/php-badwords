@@ -11,14 +11,10 @@
 
 <body>
     <form method="POST" action="dati.php">
-        <div>
-            <textarea name="testo" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, odit?
+        <textarea name="testo" cols="30" rows="10">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, odit?
             </textarea>
-        </div>
         <input type="text" name="parolaCensurata" placeholder="Inserisci la parola da censurare" />
-        <div>
-            <button type="submit">Invia</button>
-        </div>
+        <button type="submit">Invia</button>
     </form>
 </body>
 

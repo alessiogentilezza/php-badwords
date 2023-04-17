@@ -14,7 +14,6 @@
     <title>Document</title>
 </head>
 <body>
-
 <h1>Questo è il testo censurato:</h1>
 <h2><?php echo $testoCensurato ?></h2>
 <h3>Il nuovo testo è lungo: <?php echo strlen($testoCensurato);?> caratteri</h3>

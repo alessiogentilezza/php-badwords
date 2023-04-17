@@ -1,12 +1,43 @@
-form{
-    width: 300px;
-}
-textarea{
-    width: 100%;
-}
-input{
-    width: 100%;
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
 }
 
-h3{
-color: red;}
+body {
+    padding-top: 2rem;
+    background-color: beige;
+}
+
+form {
+    width: 300px;
+}
+
+textarea,
+input {
+    width: 100%;
+    padding: .5rem;
+    border: 1px solid black;
+}
+
+input{
+    margin: 1rem 0;
+}
+button{
+    padding: .5rem 1rem;
+}
+
+
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+
+h3 {
+    color: red;
+}
