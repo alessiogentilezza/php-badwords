@@ -1,7 +1,7 @@
 <?php
     $testo = $_POST['testo'];
     $parola = $_POST['parolaCensurata'];
-    $testoCensurato = str_replace($parola,'***',$testo);
+    $testoCensurato = str_ireplace($parola,'***',$testo);
 ?>
 
 <!DOCTYPE html>
